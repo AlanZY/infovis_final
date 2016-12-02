@@ -1,0 +1,402 @@
+[
+  {
+    "": 1,
+    "X": 1,
+    "StationNum": 1000,
+    "StationName": "Liberty & Stanwix",
+    "RackQnty": 16,
+    "loc": "[-80.004679,40.441326]"
+  },
+  {
+    "": 2,
+    "X": 2,
+    "StationNum": 1001,
+    "StationName": "Forbes Ave & Market Sq",
+    "RackQnty": 19,
+    "loc": "[-80.00308,40.440877]"
+  },
+  {
+    "": 3,
+    "X": 3,
+    "StationNum": 1002,
+    "StationName": "Third & Wood",
+    "RackQnty": 15,
+    "loc": "[ -80.00186,40.43903 ]"
+  },
+  {
+    "": 4,
+    "X": 4,
+    "StationNum": 1003,
+    "StationName": "First Ave & Smithfield St",
+    "RackQnty": 15,
+    "loc": "[ -80.000375,40.4372 ]"
+  },
+  {
+    "": 5,
+    "X": 5,
+    "StationNum": 1004,
+    "StationName": "First Ave & B St",
+    "RackQnty": 15,
+    "loc": "[ -79.9968767,40.4358002 ]"
+  },
+  {
+    "": 6,
+    "X": 6,
+    "StationNum": 1005,
+    "StationName": "Forbes Ave & Grant St",
+    "RackQnty": 19,
+    "loc": "[ -79.9974405,40.4387769 ]"
+  },
+  {
+    "": 7,
+    "X": 7,
+    "StationNum": 1006,
+    "StationName": "Ross St & Sixth Ave",
+    "RackQnty": 21,
+    "loc": "[ -79.9951376,40.4400542 ]"
+  },
+  {
+    "": 8,
+    "X": 8,
+    "StationNum": 1007,
+    "StationName": "Stevenson St & Forbes Ave",
+    "RackQnty": 19,
+    "loc": "[ -79.986695,40.437643 ]"
+  },
+  {
+    "": 9,
+    "X": 9,
+    "StationNum": 1008,
+    "StationName": "Centre Ave and Consol",
+    "RackQnty": 35,
+    "loc": "[ -79.988636,40.440368 ]"
+  },
+  {
+    "": 10,
+    "X": 10,
+    "StationNum": 1009,
+    "StationName": "12th St & Penn Ave",
+    "RackQnty": 19,
+    "loc": "[ -79.99238,40.445844 ]"
+  },
+  {
+    "": 11,
+    "X": 11,
+    "StationNum": 1010,
+    "StationName": "10th St & Penn Ave",
+    "RackQnty": 15,
+    "loc": "[ -79.9958114,40.444614 ]"
+  },
+  {
+    "": 12,
+    "X": 12,
+    "StationNum": 1011,
+    "StationName": "Fort Duquesne Blvd & 7th",
+    "RackQnty": 15,
+    "loc": "[ -80.0007479,40.4448352 ]"
+  },
+  {
+    "": 13,
+    "X": 13,
+    "StationNum": 1012,
+    "StationName": "North Shore Trail & Ft Duquesne Bridge",
+    "RackQnty": 35,
+    "loc": "[ -80.008882,40.445834 ]"
+  },
+  {
+    "": 14,
+    "X": 14,
+    "StationNum": 1013,
+    "StationName": "Isabella St & Federal St",
+    "RackQnty": 15,
+    "loc": "[ -80.003964,40.447571 ]"
+  },
+  {
+    "": 15,
+    "X": 15,
+    "StationNum": 1014,
+    "StationName": "Ridge Ave & Brighton Rd (CCAC)",
+    "RackQnty": 19,
+    "loc": "[ -80.013204,40.450595 ]"
+  },
+  {
+    "": 16,
+    "X": 16,
+    "StationNum": 1015,
+    "StationName": "Federal St & E North Ave",
+    "RackQnty": 12,
+    "loc": "[ -80.0063467,40.45509087 ]"
+  },
+  {
+    "": 17,
+    "X": 17,
+    "StationNum": 1016,
+    "StationName": "17th St & Penn Ave",
+    "RackQnty": 19,
+    "loc": "[ -79.985893,40.449631 ]"
+  },
+  {
+    "": 18,
+    "X": 18,
+    "StationNum": 1017,
+    "StationName": "21st St & Penn Ave",
+    "RackQnty": 19,
+    "loc": "[ -79.983543,40.452124 ]"
+  },
+  {
+    "": 19,
+    "X": 19,
+    "StationNum": 1018,
+    "StationName": "37th St & Butler St",
+    "RackQnty": 21,
+    "loc": "[ -79.964628,40.466103 ]"
+  },
+  {
+    "": 20,
+    "X": 20,
+    "StationNum": 1019,
+    "StationName": "42nd St & Butler St",
+    "RackQnty": 17,
+    "loc": "[ -79.9603066,40.470188 ]"
+  },
+  {
+    "": 21,
+    "X": 21,
+    "StationNum": 1020,
+    "StationName": "42nd St & Penn Ave",
+    "RackQnty": 15,
+    "loc": "[ -79.954417,40.465893 ]"
+  },
+  {
+    "": 22,
+    "X": 22,
+    "StationNum": 1021,
+    "StationName": "Taylor St & Liberty Ave",
+    "RackQnty": 19,
+    "loc": "[ -79.950867,40.462769 ]"
+  },
+  {
+    "": 23,
+    "X": 23,
+    "StationNum": 1022,
+    "StationName": "Liberty Ave & S Millvale",
+    "RackQnty": 15,
+    "loc": "[ -79.9456124,40.4599487 ]"
+  },
+  {
+    "": 24,
+    "X": 24,
+    "StationNum": 1023,
+    "StationName": "Liberty Ave & Baum Blvd",
+    "RackQnty": 21,
+    "loc": "[ -79.939362,40.456505 ]"
+  },
+  {
+    "": 25,
+    "X": 25,
+    "StationNum": 1024,
+    "StationName": "S Negley Ave & Baum Blvd",
+    "RackQnty": 17,
+    "loc": "[ -79.933483,40.458714 ]"
+  },
+  {
+    "": 26,
+    "X": 26,
+    "StationNum": 1025,
+    "StationName": "Penn Ave & N Fairmount St",
+    "RackQnty": 15,
+    "loc": "[ -79.933188,40.464443 ]"
+  },
+  {
+    "": 27,
+    "X": 27,
+    "StationNum": 1026,
+    "StationName": "S Whitfield St & Baum Blvd",
+    "RackQnty": 13,
+    "loc": "[ -79.926302,40.460982 ]"
+  },
+  {
+    "": 28,
+    "X": 28,
+    "StationNum": 1027,
+    "StationName": "Shady Ave & Ellsworth Ave",
+    "RackQnty": 19,
+    "loc": "[ -79.922023,40.458972 ]"
+  },
+  {
+    "": 29,
+    "X": 29,
+    "StationNum": 1028,
+    "StationName": "Penn Ave & Putnam St (Bakery Sq)",
+    "RackQnty": 19,
+    "loc": "[ -79.915248,40.455821 ]"
+  },
+  {
+    "": 30,
+    "X": 30,
+    "StationNum": 1029,
+    "StationName": "Alder St & S Higland Ave",
+    "RackQnty": 19,
+    "loc": "[ -79.9248275,40.4573211 ]"
+  },
+  {
+    "": 31,
+    "X": 31,
+    "StationNum": 1030,
+    "StationName": "S Euclid Ave & Centre Ave",
+    "RackQnty": 12,
+    "loc": "[ -79.9290211,40.4589116 ]"
+  },
+  {
+    "": 32,
+    "X": 32,
+    "StationNum": 1031,
+    "StationName": "Maryland Ave & Ellsworth Ave",
+    "RackQnty": 19,
+    "loc": "[ -79.930962,40.45628 ]"
+  },
+  {
+    "": 33,
+    "X": 33,
+    "StationNum": 1032,
+    "StationName": "Maryland Ave & Walnut St",
+    "RackQnty": 15,
+    "loc": "[ -79.928637,40.452621 ]"
+  },
+  {
+    "": 34,
+    "X": 34,
+    "StationNum": 1033,
+    "StationName": "Ivy St & Walnut St",
+    "RackQnty": 19,
+    "loc": "[ -79.932324,40.45177 ]"
+  },
+  {
+    "": 35,
+    "X": 35,
+    "StationNum": 1034,
+    "StationName": "Ellsworth Ave & N Neville St",
+    "RackQnty": 15,
+    "loc": "[ -79.947401,40.448419 ]"
+  },
+  {
+    "": 36,
+    "X": 36,
+    "StationNum": 1035,
+    "StationName": "Fifth Ave & S Dithridge St",
+    "RackQnty": 19,
+    "loc": "[ -79.950881,40.446744 ]"
+  },
+  {
+    "": 37,
+    "X": 37,
+    "StationNum": 1036,
+    "StationName": "Schenley Dr at Schenley Plaza",
+    "RackQnty": 19,
+    "loc": "[ -79.951479,40.442398 ]"
+  },
+  {
+    "": 38,
+    "X": 38,
+    "StationNum": 1037,
+    "StationName": "Frew St & Schenley Dr",
+    "RackQnty": 20,
+    "loc": "[ -79.948042,40.441032 ]"
+  },
+  {
+    "": 39,
+    "X": 39,
+    "StationNum": 1038,
+    "StationName": "Boulevard of the Allies & Parkview Ave",
+    "RackQnty": 19,
+    "loc": "[ -79.951877,40.434338 ]"
+  },
+  {
+    "": 40,
+    "X": 40,
+    "StationNum": 1039,
+    "StationName": "Atwood St & Bates",
+    "RackQnty": 19,
+    "loc": "[ -79.95367,40.437987 ]"
+  },
+  {
+    "": 41,
+    "X": 41,
+    "StationNum": 1040,
+    "StationName": "Bigelow Blvd & Fifth Ave",
+    "RackQnty": 21,
+    "loc": "[ -79.9550156,40.4446284 ]"
+  },
+  {
+    "": 42,
+    "X": 42,
+    "StationNum": 1041,
+    "StationName": "Fifth Ave & S Bouquet",
+    "RackQnty": 19,
+    "loc": "[ -79.957604,40.442325 ]"
+  },
+  {
+    "": 43,
+    "X": 43,
+    "StationNum": 1042,
+    "StationName": "Centre Ave & Kirkpatrick St",
+    "RackQnty": 12,
+    "loc": "[ -79.977194,40.445019 ]"
+  },
+  {
+    "": 44,
+    "X": 44,
+    "StationNum": 1043,
+    "StationName": "Coltart Ave & Forbes Ave",
+    "RackQnty": 15,
+    "loc": "[ -79.960179,40.438876 ]"
+  },
+  {
+    "": 45,
+    "X": 45,
+    "StationNum": 1044,
+    "StationName": "Zulema St & Coltart Ave",
+    "RackQnty": 19,
+    "loc": "[ -79.956942,40.435986 ]"
+  },
+  {
+    "": 46,
+    "X": 46,
+    "StationNum": 1045,
+    "StationName": "S 27th & Tunnel Blvd",
+    "RackQnty": 19,
+    "loc": "[ -79.965228,40.428658 ]"
+  },
+  {
+    "": 47,
+    "X": 47,
+    "StationNum": 1046,
+    "StationName": "S 25th St & E Carson St",
+    "RackQnty": 18,
+    "loc": "[ -79.969799,40.42802 ]"
+  },
+  {
+    "": 48,
+    "X": 48,
+    "StationNum": 1047,
+    "StationName": "S 22nd St & E Carson St",
+    "RackQnty": 20,
+    "loc": "[ -79.974559,40.428576 ]"
+  },
+  {
+    "": 49,
+    "X": 49,
+    "StationNum": 1048,
+    "StationName": "S 18th St & Sidney St",
+    "RackQnty": 16,
+    "loc": "[ -79.980684,40.429338 ]"
+  },
+  {
+    "": 50,
+    "X": 50,
+    "StationNum": 1049,
+    "StationName": "S 12th St & E Carson St",
+    "RackQnty": 19,
+    "loc": "[ -79.9863687,40.4285528 ]"
+  }
+]
