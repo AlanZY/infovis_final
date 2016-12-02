@@ -1,0 +1,11 @@
+body {
+	width: 960px;
+	margin: 0 auto;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+}
+svg {
+	width: 1024px;
+	height: 600px;
+}
