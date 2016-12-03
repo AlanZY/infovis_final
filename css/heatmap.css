@@ -3,6 +3,17 @@ body{
     font-family: "Lato", sans-serif;
     color: white;
 }
+
+#head1{
+	color: white;
+	text-align: center;
+	font-family: GillSans;
+}
+
+#head2{
+	color: white;
+	text-align: center;
+}
      .w3-btn {
         width:100px;
         margin: 10px;}
