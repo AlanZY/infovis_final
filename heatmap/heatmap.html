@@ -3,103 +3,34 @@
 <html>
   <head>
        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-    <style>
- 
-      .w3-btn {
-        width:100px;
-        margin: 10px;}
+       <link rel="stylesheet" href="./css/heatmap.css"/>
+      <link rel="stylesheet" href="./css/index.css"/>
 
-      body {font-family: "Lato", sans-serif;}
-
-      ul.tab {
-          list-style-type: none;
-          margin: 0;
-          padding: 0;
-          overflow: hidden;
-          border: 1px solid #ccc;
-          background-color: #f1f1f1;
-      }
-
-      /* Float the list items side by side */
-      ul.tab li {float: left;}
-
-      /* Style the links inside the list items */
-      ul.tab li a {
-          display: inline-block;
-          color: black;
-          text-align: center;
-          padding: 14px 16px;
-          text-decoration: none;
-          transition: 0.3s;
-          font-size: 17px;
-      }
-
-      /* Change background color of links on hover */
-      ul.tab li a:hover {
-          background-color: #ddd;
-      }
-
-      /* Create an active/current tablink class */
-      ul.tab li a:focus, .active {
-          background-color: #ccc;
-      }
-
-      /* Style the tab content */
-      .tabcontent {
-          display: none;
-          padding: 6px 12px;
-          border: 1px solid #ccc;
-          border-top: none;
-      }
-
-    
-      rect.bordered {
-        stroke: #E6E6E6;
-        stroke-width:2px;   
-      }
-
-      text.tiptools{
-        font-size: 9pt;
-        font-family: Consolas, courier;
-        fill: #000;        
-      }
-      text.mono {
-        font-size: 9pt;
-        font-family: Consolas, courier;
-        fill: #aaa;
-      }
-
-      text.axis-workweek {
-        fill: #000;
-      }
-
-      text.axis-worktime {
-        fill: #000;
-      }
-
-      text.axit-station {
-        fill:#000
-      }
-    </style>
     <script src="http://d3js.org/d3.v3.js"></script>
   </head>
   <body>
-    <h1>Heat map</h1>
+    <div id="head1">
+    <h1>Time: what is the peak time for weekdays and stations?</h1>
+    </div>
     <ul class="tab">
         <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'Weekday-Hour')" id="defaultOpen">Weekday-Hour</a></li>
         <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'Station-Hour')">Station-Hour</a></li>
     </ul>
 
     <div id="Weekday-Hour" class="tabcontent">
+      <div id = "head2">
         <h2> Heat map for Weekday-Hour bike rental </h2>
         <div id="dataset-picker"></div>
         <div id="chart"></div>
+      </div>
     </div>
 
     <div id="Station-Hour" class="tabcontent">
+      <div id = "head2">
         <h2> Heat map for Station-Hour bike rental </h2>
         <div id="dataset-picker2"></div>
         <div id="chart2"></div>
+      </div>
     </div>
 
     <script type="text/javascript">

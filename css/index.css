@@ -13,9 +13,17 @@ li{
 	text-align: center;
 	font-family: GillSans;
 }
+
+#head2{
+	color: white;
+	text-align: center;
+	font-family: 'Raleway',serif;
+}
+
 p{
 	color: white;
 }
+
 #block1{
 	width:10%;
 	border-right:1px solid #42413d;
@@ -26,7 +34,7 @@ p{
 #block1 li{
 	border-radius:5px;
 	border-style: solid;
-	border-color: #ffce2b;
+	border-color:lightgreen;
 	padding-top: 3px;
 	margin-bottom: 10px;
 	color: white;
@@ -35,11 +43,13 @@ p{
 #block1 a{
 	font-size: 18px;
 	color:white;
+	font-family: 'Raleway',serif;
 }
 #ann{
 	margin-top: 50px;
 	font-weight: 900;
 	font-size: 15px;
+	font-family: 'Raleway',serif;
 }
 
 #content{
@@ -67,11 +77,6 @@ ul{
 	padding-left:50px;
 }
 
-#block4{
-	height: 30%;
-}
-
-
 #para{
 	color: white;
 	font-size:18px;
@@ -79,20 +84,16 @@ ul{
 	font-family: 'Raleway',serif;
 }
 
+#block3{
+	margin-top: 10px;
+	padding-right:50px;
+	width:90%;
+	float:left;
+	padding-left:50px;
+}
 
 #img {
 	width:100%; 
 	background:black; 
 	text-align:center;
-}
-
-#block3{
-	width:15%;
-	float:right;
-	border-left:1px;
-	height:100%;
-}
-
-#block3 img{
-	margin-top:4px
 }
