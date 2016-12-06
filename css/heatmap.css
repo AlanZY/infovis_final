@@ -53,7 +53,7 @@ body{
 
       /* Style the tab content */
       .tabcontent {
-          display: none;
+          display: none; 
           padding: 6px 12px;
           border: 1px solid #ccc;
           border-top: none;
@@ -88,3 +88,16 @@ body{
       text.axit-station {
         fill:#fff
       }
+.centerLayout{
+    text-align: center;
+    display: block;
+	  font-family: GillSans;
+}
+.left_col {
+   float:left;
+   width:30%;
+}
+.right_col {
+   float:right;
+   width:70%;
+}

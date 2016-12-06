@@ -1,8 +1,11 @@
+//https://github.com/prcweb/d3-circularheat
 function circularHeatChart() {
-    var margin = {top: 20, right: 20, bottom: 20, left: 20},
+    var margin = {top: 20, right: 20, bottom: 20, left: 120},
     innerRadius = 50,
     numSegments = 24,
     segmentHeight = 20,
+    width = 760,
+    height = 600,
     domain = null,
     range = ["white", "red"],
     accessor = function(d) {return d;},
@@ -13,6 +16,9 @@ function circularHeatChart() {
             var svg = d3.select(this);
 
             var offset = innerRadius + Math.ceil(data.length / numSegments) * segmentHeight;
+            svg.attr("width", width)
+                .attr("height", height);
+
             g = svg.append("g")
                 .classed("circular-heat", true)
                 .attr("transform", "translate(" + parseInt(margin.left + offset) + "," + parseInt(margin.top + offset) + ")");
@@ -67,6 +73,7 @@ function circularHeatChart() {
             labels = svg.append("g")
                 .classed("labels", true)
                 .classed("segment", true)
+                .attr("fill","white")
                 .attr("transform", "translate(" + parseInt(margin.left + offset) + "," + parseInt(margin.top + offset) + ")");
 
             labels.append("def")

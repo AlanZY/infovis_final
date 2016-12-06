@@ -46,7 +46,7 @@ function draw(stationID,season){
     var file = "/radio_plot/data/Healthy_Ride_Rentals_"+season+".csv";
     d3.csv("/radio_plot/data/station_name.csv", function(stations) {
         d3.csv(file,function(records){
-            document.getElementById("title").innerHTML = "The Radio Plot for "+stations[stationID].name + " in "+season;
+            document.getElementById("head1").innerHTML = "The Radio Plot for "+stations[stationID].name + " in "+season;
             var targetStation = processing(stations,records,stationID);
 //            console.log(targetStation);
             var week = [];
@@ -72,14 +72,14 @@ function draw(stationID,season){
 //                            .range(['black', '#24FD95'])
                             .segmentLabels(week);
                         
-                        d3.select('#chart1')
+                        d3.select('#char')
                             .selectAll('svg')
                             .data([targetStation.counts])
                             .enter()
                             .append('svg')
                             .call(chart1);
 
-            d3.selectAll("#chart1 path")
+            d3.selectAll("#char path")
             .on('mouseover', show);
         });
     });
