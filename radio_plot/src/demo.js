@@ -1,5 +1,5 @@
-d3.csv("/data/2015-Q3/HealthyRideStations2015.csv", function(stations) {
-    d3.csv("/data/2015-Q3/HealthyRide_Rentals_2015_Q3.csv",function(records){
+d3.csv("/radio_plot/data/2015-Q3/HealthyRideStations2015.csv", function(stations) {
+    d3.csv("/radio_plot/data/2015-Q3/HealthyRide_Rentals_2015_Q3.csv",function(records){
 //        console.log(stations);
 //        console.log(records);
         for(var i in stations){
