@@ -101,3 +101,9 @@ body{
    float:right;
    width:70%;
 }
+.exp{
+  word-wrap:break-word;
+  white-space:normal;
+}
+
+
