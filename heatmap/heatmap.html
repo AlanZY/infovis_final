@@ -4,7 +4,7 @@
   <head>
        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
        <link rel="stylesheet" href="../css/heatmap.css"/>
-
+      <title> RideVis: Time </title>
     <script src="http://d3js.org/d3.v3.js"></script>
   </head>
   <body>
@@ -17,18 +17,40 @@
     </ul>
 
     <div id="Weekday-Hour" class="tabcontent">
-      <div id = "head2">
+      <div class="left_col_heatmap">
+        <p></p>
+        <p></p>
+        <h3 class="exp"> ⏰ Time Pattern for Weekdays<h3>
+        <ul>
+          <li class="exp" style="font-size:12pt">Saturday has the biggest bike rental in a week.</li>
+          <li class="exp" style="font-size:12pt">On weekdays, rental peak happens in rash hours (around 8AM and 5PM), while in the afternoon on weekends. -- Bike rental for different purposes.</li>
+          <li class="exp" style="font-size:12pt">Warm seasons(Q2/Q3) have much more bike rental than cold ones(Q1/Q4). -- It's not a good idea to ride a bike in winter time of Pittsburgh.</li>
+        </ul>
+      </div>
+      <div id = "head2_heatmap">
         <h2> Heat map for Weekday-Hour bike rental </h2>
         <div id="dataset-picker"></div>
         <div id="chart"></div>
+        <div><a href="../main.html" class="w3-btn w3-blue w3-round-large">Back</a></div>
       </div>
     </div>
 
     <div id="Station-Hour" class="tabcontent">
-      <div id = "head2">
+        <div class="left_col_heatmap">
+        <p></p>
+        <p></p>
+        <h3 class="exp"> ⏰ Time Pattern for Stations<h3>
+        <ul>
+          <li class="exp" style="font-size:12pt">There are several popular stations, such as 1000, 1001, 1010, 1017, 1045. They are near schools, marketplaces or parks.</li>
+          <li class="exp" style="font-size:12pt">However, most stations have small bike rental for most time. The program may need some improvement.</li>
+          <li class="exp" style="font-size:12pt">Warm seasons(Q2/Q3) have much more bike rental than cold ones(Q1/Q4). -- It's not a good idea to ride a bike in winter time of Pittsburgh.</li>
+        </ul>
+      </div>
+      <div id = "head2_heatmap">
         <h2> Heat map for Station-Hour bike rental </h2>
         <div id="dataset-picker2"></div>
         <div id="chart2"></div>
+        <div><a href="../main.html" class="w3-btn w3-green w3-round-large">Back</a></div>
       </div>
     </div>
 
@@ -59,7 +81,7 @@
           colors = ["#f7fbff","#deebf7","#c6dbef","#9ecae1","#6baed6","#4292c6","#2171b5","#08519c","#08306b"], // alternatively colorbrewer.YlGnBu[9]
           colors2 = ["#f7fcf5","#e5f5e0","#c7e9c0","#a1d99b","#74c476","#41ab5d","#238b45","#006d2c","#00441b"], // alternatively colorbrewer.YlGnBu[9]
           days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
-          times = ["1a", "2a", "3a", "4a", "5a", "6a", "7a", "8a", "9a", "10a", "11a", "12a", "1p", "2p", "3p", "4p", "5p", "6p", "7p", "8p", "9p", "10p", "11p", "12p"],
+          times = ["1AM", "2AM", "3AM", "4AM", "5AM", "6AM", "7AM", "8AM", "9AM", "10AM", "11AM", "12AM", "1PM", "2PM", "3PM", "4PM", "5PM", "6PM", "7PM", "8PM", "9PM", "10PM", "11PM", "12PM"],
           datasetlabel = ["All","2015Q3", "2015Q4", "2016Q1", "2016Q2", "2016Q3"];
           datasets = ["weekday_hour_all.csv","weekday_hour_2015Q3.csv","weekday_hour_2015Q4.csv","weekday_hour_2016Q1.csv","weekday_hour_2016Q2.csv","weekday_hour_2016Q3.csv"];
           datasets2 = ["station_hour_all.csv","station_hour_2015Q3.csv","station_hour_2015Q4.csv","station_hour_2016Q1.csv","station_hour_2016Q2.csv","station_hour_2016Q3.csv"]

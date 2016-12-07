@@ -14,6 +14,15 @@ body{
 	color: white;
 	text-align: center;
 }
+
+#head2_heatmap{
+	color: white;
+	text-align: center;
+  float:right;
+  width:80%;
+}
+
+
      .w3-btn {
         width:100px;
         margin: 10px;}
@@ -106,4 +115,8 @@ body{
   white-space:normal;
 }
 
+.left_col_heatmap {
+   float:left;
+   width:20%;
+}
 
