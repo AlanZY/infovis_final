@@ -95,7 +95,8 @@ body{
 }
 .left_col {
    float:left;
-   width:30%;
+   width:25%;
+   margin-left:3%;
 }
 .right_col {
    float:right;
